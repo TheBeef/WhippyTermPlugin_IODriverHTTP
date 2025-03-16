@@ -19,8 +19,7 @@ SOURCE = $(SRC_DIR)/HTTPClient_HTTP.cpp \
 	$(SRC_DIR)/HTTPClient_Main.cpp \
 	$(SRC_DIR)/OS/Linux/HTTPClient_OS_Socket.cpp \
 
-INCLUDES = src \
-	../../../../src
+INCLUDES = ../src \
 
 # All .o files go to build dir.
 OBJ = $(SOURCE:%.c=$(BUILD_DIR)/%.o)
